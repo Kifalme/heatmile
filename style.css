@@ -1,0 +1,12 @@
+:root{--night:#0b0618;--panel:#160b2c;--ink:#f7f1ff;--dim:#b9acd9;--neon:#ff2e88;--cyan:#29e3ff;--gold:#ffc83d;--line:rgba(247,241,255,.14);color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(120% 60% at 50% 0%,#3a1250 0%,var(--night) 60%);background-color:var(--night);color:var(--ink);font:17px/1.6 'Chakra Petch',system-ui,sans-serif;min-height:100vh}
+.wrap{max-width:720px;margin:0 auto;padding:0 16px}
+header{padding:24px 0;display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.brand{font-family:'Bungee',Impact,sans-serif;font-size:26px;text-decoration:none;background:linear-gradient(180deg,#ffe36b,#ff8a3d 45%,var(--neon));-webkit-background-clip:text;background-clip:text;color:transparent}
+nav a{color:var(--dim);margin-left:16px;text-decoration:none}nav a:hover{color:var(--ink)}
+h1{font-family:'Bungee',Impact,sans-serif;font-weight:400;font-size:clamp(36px,9vw,64px);line-height:1;margin:24px 0 8px;color:var(--neon);text-shadow:0 0 22px rgba(255,46,136,.5)}
+h2{font-family:'Bungee',Impact,sans-serif;font-weight:400;font-size:18px;letter-spacing:.06em;color:var(--cyan);margin:32px 0 8px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:16px 18px;margin:16px 0}
+.dim{color:var(--dim)}a{color:var(--gold)}
+footer{padding:40px 0;color:var(--dim);font-size:14px}
